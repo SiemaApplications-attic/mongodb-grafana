@@ -8,7 +8,9 @@
   },
 
   "metrics": true,
-  "annotations": false,
+  "annotations": true,
+  "backend": true,
+  "alerting": true,
 
   "info": {
     "description": "MongoDB datasource (opensource)",
@@ -23,8 +25,8 @@
       {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
       {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
     ],
-    "version": "0.9.2",
-    "updated": "2022-09-22"
+    "version": "0.9.3",
+    "updated": "2023-09-07"
   },
 
   "dependencies": {
